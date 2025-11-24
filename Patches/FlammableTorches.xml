@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TorchLamp"]/statBases/Flammability</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "TorchLamp"]/statBases/Flammability</xpath>
+			<value>
+				<Flammability>1.0</Flammability>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TorchLamp"]/statBases</xpath>
+			<value>
+				<Flammability>1.0</Flammability>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>
