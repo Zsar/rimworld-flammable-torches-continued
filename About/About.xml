@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Flammable Torches</name>
-  <author>Evelyn</author>
+  <name>Flammable Torches - Continued</name>
+  <authors>
+    <li>Evelyn</li>
+    <li>Zsar</li>
+  </authors>
+  <modVersion IgnoreIfNoMatchingField="True">1.1</modVersion>
   <supportedVersions>
     <li>1.3</li>
+    <li>1.6</li>
   </supportedVersions>
   <packageId>UdderlyEvelyn.FlammableTorches</packageId>
   <description>
@@ -12,6 +17,5 @@ Ever have your base burn down? Ever notice the torches, flammable sticks used fo
   <loadAfter>
     <li>Ludeon.RimWorld</li>
   </loadAfter>
+  <url>https://github.com/Zsar/rimworld-flammable-torches-continued/</url>
 </ModMetaData>
-
-
